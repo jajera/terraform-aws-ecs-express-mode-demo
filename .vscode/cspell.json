@@ -1,0 +1,14 @@
+{
+  "words": [
+    "bedrock",
+    "cidrsubnet",
+    "fargate",
+    "fastapi",
+    "jsonencode",
+    "pfuzz",
+    "platformfuzz",
+    "tfstate",
+    "tfvars",
+    "uvicorn"
+  ]
+}
