@@ -1,3 +1,8 @@
+output "aws_region" {
+  description = "AWS region where resources are deployed"
+  value       = var.aws_region
+}
+
 output "service_url" {
   description = "HTTPS endpoint URL for the public web service (requires access_type PUBLIC)"
   value       = aws_ecs_express_gateway_service.web.ingress_paths[0].endpoint
